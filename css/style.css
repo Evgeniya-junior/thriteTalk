@@ -33,3 +33,117 @@ ul {
     padding: 0px; 
     list-style: none;
   }
+.title{
+    font-family: 'Larsseit',sans-serif;
+    color:#22356F;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 27px;
+}
+.header__contant{
+    display: flex;
+    margin-left: 180px;
+    width: 500px;
+    min-height: 800px;
+}
+.header__contant::after{
+    content: "";
+    position: absolute;
+    background: url(../imgs/header_img.svg) right top no-repeat;
+    width: 645px;
+    height: 810px;
+    right: 0;
+    top:10px;
+    z-index: -1;
+}
+.nav__menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo__link{  
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+}
+.menu__list{
+    width: 233px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.menu__item{
+    font-size: 14px;
+line-height: 16px;
+}
+
+.button{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:50px;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  -ms-border-radius:50px;
+  -o-border-radius:50px;
+  background: #62D0DF;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 16px;
+  padding:20px 30px;
+  text-transform: uppercase;
+}
+
+.content__h-left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.h-left__span{
+    font-size: 24px;
+line-height: 27px;
+letter-spacing: -0.035em;
+color: #62D0DF;
+}
+.h-left__title{
+    font-size: 48px;
+line-height: 53px;
+letter-spacing: -0.035em;
+}
+.h-left__paragraf{
+    font-size: 24px;
+line-height: 42px;
+color: #22356F;
+}
+.h-left__actions{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.actions__button{
+    background: #F9B640;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 23px;
+    padding:10px 30px;
+}
+.actions__link{
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    text-transform: uppercase;
+}
