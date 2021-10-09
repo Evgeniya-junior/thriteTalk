@@ -419,5 +419,22 @@ color: #FAB63E;
     color: rgba(34, 53, 111, 0.5);
 }
 .item__e-mail{
-    text-decoration: #62D0DF;
+    color:#62D0DF;
+}
+/* footer block */
+.footer{
+    width: 100vw;
+    height: 80px;
+    background: #62D0DF;
+}
+.footer__container{
+    padding-left:198px;
+    padding-top:23px;
+}
+.footer__paragraf{
+    font-size: 14px;
+line-height: 11px;
+letter-spacing: -0.006em;
+color: #FFFFFF;
+
 }
