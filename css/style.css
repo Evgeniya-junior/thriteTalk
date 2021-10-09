@@ -379,3 +379,45 @@ color: #FAB63E;
     letter-spacing: 0.1em;
     color: #62D0DF;
 }
+/* info block */
+.info{
+    display: flex;
+    justify-content: flex-end;
+}
+.info__container{
+    width: 834px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.info__container::before{
+    position: absolute;
+    left: 0;
+    content:"";
+    background: url(../imgs/inform.svg) left no-repeat;
+    background-size: cover;
+    width: 570px;
+    height: 380px;
+}
+.item{
+    padding:0 20px 0 0;
+}
+.info__content{
+    display: flex;
+    justify-content: space-around; 
+    padding:98px 68px;
+}
+.content__some-info{
+    width: 207px;
+}
+.some-info__paragraf,
+.enfold-health__list,
+.office-hours__list{
+    padding-top:20px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.item__e-mail{
+    text-decoration: #62D0DF;
+}
